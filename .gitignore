@@ -1,20 +1,8 @@
-# Virtual environments & dependencies
-.venv/
 .venv_libs/
+.venv/
 __pycache__/
 *.pyc
-
-# Dataset archives and cache directories (10+ GB)
-data/
-archive/
-
-# Temporary video and cache files
 *.mp4
-temp_*.mp4
-sample_frame.jpg
-pdf_text.txt
-
-# System files
+temp_perturbed.mp4
 .DS_Store
-.idea/
-.vscode/
+

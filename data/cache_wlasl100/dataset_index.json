@@ -1,0 +1,6087 @@
+{
+  "total_cached": 1013,
+  "train": [
+    {
+      "clip_id": "10893",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10893.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10895",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10895.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10892",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10892.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10894",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10894.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51064",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51064.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51060",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51060.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51061",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51061.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66779",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/66779.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66778",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/66778.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06365",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/06365.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43180",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43180.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65278",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/65278.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57291",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57291.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56837",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56837.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56838",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56838.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56839",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56839.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06334",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06334.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06331",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06331.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06337",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06337.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06332",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06332.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06333",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06333.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11768",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11768.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11769",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11769.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11767",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11767.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64292",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64292.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64291",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64291.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65507",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/65507.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65504",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/65504.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65503",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/65503.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45443",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45443.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05734",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05734.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05730",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05730.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05732",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05732.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05733",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05733.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05731",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05731.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05229",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05229.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17720",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17720.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17721",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17721.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17722",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17722.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17723",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17723.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14624",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14624.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14625",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14625.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26972",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26972.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26973",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26973.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26975",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26975.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26976",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26976.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65029",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/65029.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63208",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63208.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14680",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14680.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63204",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63204.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63207",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63207.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63200",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63200.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63203",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63203.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63202",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63202.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51063",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51063.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62246",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62246.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62245",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62245.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62248",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62248.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08437",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08437.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07074",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/07074.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07070",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/07070.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26719",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26719.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26712",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26712.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26713",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26713.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26715",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26715.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26714",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26714.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26717",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26717.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07961",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07961.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65889",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/65889.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28214",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28214.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28210",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28210.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65084",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/65084.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28211",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28211.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65085",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/65085.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66532",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/66532.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66769",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/66769.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05243",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05243.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65263",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/65263.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "02003",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/02003.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "39006",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/39006.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69343",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/69343.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42843",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42843.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49175",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49175.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49174",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49174.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49178",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49178.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05742",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05742.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05743",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05743.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05740",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05740.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05749",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05749.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36946",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36946.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10158",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10158.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13199",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13199.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14894",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14894.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62259",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62259.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14893",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14893.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62250",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62250.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45273",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45273.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62251",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62251.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07069",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/07069.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40847",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40847.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "31755",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31755.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07068",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/07068.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "31756",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31756.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "31753",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31753.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06486",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06486.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66575",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/66575.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "31752",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31752.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66798",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/66798.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66799",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/66799.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05644",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05644.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65216",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/65216.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35452",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35452.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35458",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35458.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35456",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35456.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65187",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/65187.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35453",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35453.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35455",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35455.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32250",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32250.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32254",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32254.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32257",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32257.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65677",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/65677.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56852",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56852.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01387",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01387.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24955",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24955.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24954",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24954.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24956",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24956.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65328",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/65328.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55365",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55365.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55362",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55362.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10166",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10166.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14882",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14882.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14885",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14885.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14884",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14884.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14886",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14886.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45261",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45261.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45263",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45263.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45265",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45265.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45264",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45264.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09850",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09850.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10147",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10147.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10148",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10148.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26739",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26739.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66146",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/66146.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66147",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/66147.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42832",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42832.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42830",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42830.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42831",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42831.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42836",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42836.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66098",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/66098.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06832",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06832.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66099",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/66099.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06833",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06833.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06835",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06835.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06839",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06839.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06834",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06834.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65996",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/65996.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51057",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51057.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51056",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51056.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51058",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51058.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51059",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51059.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35467",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35467.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65200",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/65200.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65192",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/65192.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32248",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32248.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32249",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32249.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65440",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/65440.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56841",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56841.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65445",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/65445.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56844",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56844.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69325",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/69325.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24947",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24947.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56848",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56848.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24943",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24943.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24940",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24940.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38990",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38990.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24941",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24941.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38995",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38995.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38997",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38997.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38999",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38999.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57647",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57647.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57641",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57641.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26971",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26971.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63679",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63679.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14627",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14627.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63673",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63673.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26974",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26974.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14622",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14622.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27216",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27216.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14623",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14623.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42956",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42956.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42959",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42959.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42958",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42958.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "48114",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48114.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14676",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14676.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09848",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09848.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09849",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09849.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14671",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14671.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57935",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57935.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57934",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57934.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57936",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57936.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57937",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57937.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63205",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63205.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57939",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57939.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08424",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08424.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "15038",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15038.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "15032",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15032.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "15033",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15033.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "15034",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15034.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "15035",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15035.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08937",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08937.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08935",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08935.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08936",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08936.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08938",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08938.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50044",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50044.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50046",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50046.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50040",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50040.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24961",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24961.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13647",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13647.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13646",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13646.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13642",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13642.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57634",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57634.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13640",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13640.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13648",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13648.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57630",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57630.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57631",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57631.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24973",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24973.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08431",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08431.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06371",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/06371.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21891",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21891.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27221",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27221.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69206",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/69206.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21871",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21871.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21870",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21870.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21878",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21878.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63668",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63668.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63666",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63666.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63667",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63667.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63665",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63665.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43167",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43167.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43169",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43169.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43168",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43168.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49183",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49183.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49181",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49181.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38544",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38544.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49188",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49188.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64300",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64300.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63799",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63799.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63792",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63792.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63793",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63793.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63790",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63790.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63791",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63791.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "48106",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48106.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "48107",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48107.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "48109",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48109.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63242",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63242.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58499",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58499.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22130",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22130.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58498",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58498.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58361",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58361.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58360",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58360.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58363",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58363.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58362",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58362.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58366",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58366.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65299",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/65299.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "31767",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31767.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14681",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14681.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07963",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07963.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07960",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07960.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07962",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07962.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65298",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/65298.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07966",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07966.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11330",
+      "label": 6,
+      "npz_path": "data/cache_wlasl100/11330.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08924",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08924.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08920",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08920.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08921",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08921.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50039",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50039.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50038",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50038.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50037",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50037.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56842",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56842.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66183",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/66183.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56846",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56846.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24638",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24638.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65043",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/65043.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32260",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32260.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32261",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32261.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17709",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17709.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65824",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/65824.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19258",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19258.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19259",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19259.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06363",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/06363.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21883",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21883.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27217",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27217.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27215",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27215.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27214",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27214.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21869",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21869.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10149",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10149.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45436",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45436.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45433",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45433.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "45434",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45434.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24962",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24962.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43174",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43174.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43170",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43170.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43173",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43173.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17085",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17085.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17084",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17084.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17087",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17087.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17086",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17086.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09869",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09869.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12316",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12316.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12317",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12317.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12314",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12314.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12313",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12313.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12311",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12311.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12318",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12318.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12319",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12319.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40130",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40130.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26980",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/26980.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63227",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63227.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63225",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63225.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65539",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/65539.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66592",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/66592.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08917",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08917.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08916",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08916.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08919",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08919.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66441",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/66441.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13161",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13161.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63672",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63672.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65145",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/65145.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65144",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/65144.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69534",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/69534.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28115",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28115.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28116",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28116.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28111",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28111.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28110",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28110.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24640",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24640.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19261",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19261.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19260",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19260.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19264",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19264.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "19269",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19269.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11780",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11780.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06359",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/06359.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27208",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27208.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27206",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27206.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "27207",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27207.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32946",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32946.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17090",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17090.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17091",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17091.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42961",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42961.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42966",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42966.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42967",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42967.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64212",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64212.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64213",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64213.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64218",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64218.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64219",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64219.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55366",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55366.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12327",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12327.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12328",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12328.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55364",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55364.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40121",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40121.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03005",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03005.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40129",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40129.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03000",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03000.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03002",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03002.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03003",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03003.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03001",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03001.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "03008",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/03008.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "18329",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/18329.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "18325",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/18325.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "18324",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/18324.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62175",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62175.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62170",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62170.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "37886",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37886.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "37883",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37883.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "37881",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37881.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11313",
+      "label": 6,
+      "npz_path": "data/cache_wlasl100/11313.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11310",
+      "label": 6,
+      "npz_path": "data/cache_wlasl100/11310.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28107",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28107.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24651",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24651.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14675",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14675.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28108",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28108.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28109",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28109.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14674",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14674.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06343",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06343.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32158",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32158.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32155",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32155.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49600",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49600.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49602",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49602.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13333",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13333.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13337",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13337.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05638",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05638.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64224",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64224.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05634",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05634.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05637",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05637.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05636",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05636.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05631",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05631.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05630",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05630.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05633",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05633.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05632",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05632.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13202",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13202.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13201",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13201.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13200",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13200.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13209",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13209.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13208",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13208.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "12338",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12338.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36929",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36929.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33285",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33285.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40119",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40119.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40117",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40117.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40116",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40116.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40115",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40115.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "18335",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/18335.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62168",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62168.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62169",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62169.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62163",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62163.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62164",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62164.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "37894",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37894.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66008",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/66008.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40836",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40836.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66007",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/66007.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11309",
+      "label": 6,
+      "npz_path": "data/cache_wlasl100/11309.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66469",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/66469.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65162",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/65162.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65161",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/65161.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65167",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/65167.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01987",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/01987.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01988",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/01988.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32945",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32945.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32947",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32947.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24660",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24660.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32949",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32949.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35523",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35523.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69241",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/69241.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32163",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32163.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32160",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32160.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21945",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21945.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21941",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21941.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21943",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21943.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13326",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13326.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13327",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13327.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13323",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13323.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13328",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13328.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13329",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13329.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13213",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13213.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13216",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13216.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13217",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13217.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22967",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22967.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22960",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22960.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36930",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36930.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36931",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36931.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36932",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36932.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36933",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36933.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36936",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36936.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "36937",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/36937.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53268",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53268.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56556",
+      "label": 28,
+      "npz_path": "data/cache_wlasl100/56556.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56557",
+      "label": 28,
+      "npz_path": "data/cache_wlasl100/56557.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "10157",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10157.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "24648",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24648.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62159",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62159.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05629",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/05629.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "30832",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30832.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "30831",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30831.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "30835",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30835.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "30834",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30834.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09967",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09967.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09966",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09966.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09960",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09960.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09963",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09963.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65363",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/65363.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40841",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40841.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65362",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/65362.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23769",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23769.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23766",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23766.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23768",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23768.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66010",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/66010.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66014",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/66014.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13695",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13695.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13697",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13697.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13699",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13699.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34738",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34738.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01991",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/01991.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01992",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/01992.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34734",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34734.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34736",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34736.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34737",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34737.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "43179",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43179.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34732",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34732.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34733",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34733.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32954",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32954.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62970",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62970.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65009",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/65009.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32959",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32959.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28125",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28125.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25321",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25321.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25323",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25323.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25322",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25322.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25325",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25325.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25324",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25324.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25326",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25326.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25329",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25329.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62979",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62979.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35511",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35511.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35517",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35517.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35516",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35516.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35518",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35518.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13630",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13630.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23782",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23782.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69290",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/69290.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69298",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/69298.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21951",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21951.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "21950",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21950.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57286",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57286.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53279",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53279.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53273",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53273.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53270",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53270.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53271",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53271.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "53275",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53275.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00624",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00624.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00623",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00623.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22953",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22953.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22952",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22952.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00629",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00629.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22955",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22955.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00628",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00628.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62964",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62964.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62966",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62966.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "62968",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62968.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57953",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57953.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01388",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01388.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20979",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20979.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20978",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20978.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01385",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01385.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01383",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01383.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "01384",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01384.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66640",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/66640.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66644",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/66644.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66246",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/66246.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09970",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09970.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66804",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/66804.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23771",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23771.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "23774",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23774.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08955",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08955.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34742",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34742.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34746",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/34746.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "25339",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25339.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35509",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35509.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56563",
+      "label": 28,
+      "npz_path": "data/cache_wlasl100/56563.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51223",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51223.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51221",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51221.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51226",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51226.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51225",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51225.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69282",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/69282.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69283",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/69283.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69281",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/69281.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65721",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/65721.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "50045",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50045.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65635",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/65635.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65434",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/65434.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65439",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/65439.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63806",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63806.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00632",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00632.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00633",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00633.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00631",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00631.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06478",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06478.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "00639",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00639.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57940",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57940.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57942",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57942.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57947",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57947.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57949",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57949.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06471",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06471.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42969",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42969.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13168",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13168.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13160",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13160.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13167",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13167.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51235",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51235.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40834",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40834.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51231",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51231.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51232",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51232.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "40837",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40837.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09949",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09949.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07389",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07389.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66816",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/66816.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66818",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/66818.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08942",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08942.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "42829",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42829.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "08944",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/08944.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05238",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05238.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05728",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05728.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05231",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05231.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05233",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05233.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66038",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/66038.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65601",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/65601.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06472",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06472.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06473",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06473.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22121",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22121.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22120",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22120.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06477",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06477.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "06474",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06474.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "51236",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51236.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56579",
+      "label": 28,
+      "npz_path": "data/cache_wlasl100/56579.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64090",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64090.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64091",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64091.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65731",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/65731.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64088",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64088.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64087",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64087.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64086",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64086.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64084",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64084.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64085",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64085.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "37884",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37884.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17711",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17711.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17710",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17710.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17712",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17712.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34831",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34831.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34830",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34830.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13157",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13157.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13156",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13156.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13158",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13158.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20992",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20992.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33267",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33267.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33266",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33266.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33269",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33269.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63236",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63236.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63231",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63231.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63232",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63232.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "30840",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30840.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09954",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09954.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09956",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09956.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "09953",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09953.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66531",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/66531.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66820",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/66820.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65540",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/65540.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "26741",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/26741.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07394",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07394.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07397",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07397.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07390",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07390.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07391",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07391.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07392",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07392.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07393",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07393.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "07399",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07399.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22116",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22116.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "22115",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22115.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55361",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55361.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55363",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55363.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55368",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55368.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "55369",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55369.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32953",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32953.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65449",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/65449.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32321",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32321.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32322",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32322.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32324",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32324.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32326",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32326.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32955",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32955.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57638",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57638.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57635",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57635.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57632",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57632.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57633",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57633.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17019",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17019.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17013",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17013.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17014",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17014.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17017",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17017.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17015",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17015.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34823",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34823.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34824",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34824.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34825",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34825.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34826",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34826.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34827",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34827.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38524",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38524.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38527",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38527.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38529",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38529.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20986",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20986.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20987",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20987.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20982",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20982.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20983",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20983.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20980",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20980.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "20981",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/20981.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33274",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33274.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "33273",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33273.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35512",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35512.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63228",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63228.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41037",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41037.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41032",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41032.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41030",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41030.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "35454",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/35454.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66296",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/66296.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66297",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/66297.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58503",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58503.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "58508",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58508.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66637",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/66637.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66638",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/66638.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66639",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/66639.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66742",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/66742.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66743",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/66743.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "48105",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48105.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "56558",
+      "label": 28,
+      "npz_path": "data/cache_wlasl100/56558.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "69430",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/69430.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13702",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13702.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65242",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/65242.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34839",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34839.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65241",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/65241.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32338",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32338.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32333",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32333.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13636",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13636.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "32337",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32337.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13632",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13632.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "13631",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13631.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57276",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57276.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65450",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/65450.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57277",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57277.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57287",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57287.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57284",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57284.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "57283",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57283.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66355",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/66355.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65408",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/65408.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65409",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/65409.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65403",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/65403.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11770",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11770.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "11773",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11773.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17026",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17026.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64288",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64288.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64284",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64284.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64281",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64281.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64280",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64280.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "64283",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64283.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49595",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49595.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49596",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49596.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49597",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49597.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49598",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49598.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "49599",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49599.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "34832",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/34832.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "17733",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17733.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05729",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05729.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05230",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05230.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "05234",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05234.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38534",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38534.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38532",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38532.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "38530",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38530.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "63214",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63214.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "14633",
+      "label": 58,
+      "npz_path": "data/cache_wlasl100/14633.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41025",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41025.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41026",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41026.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41029",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41029.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "41028",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41028.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66606",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/66606.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "66351",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/66351.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "65890",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/65890.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28205",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28205.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28204",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28204.npz",
+      "subset": "train"
+    },
+    {
+      "clip_id": "28202",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28202.npz",
+      "subset": "train"
+    }
+  ],
+  "val": [
+    {
+      "clip_id": "69422",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/69422.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "10898",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10898.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "51067",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51067.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69396",
+      "label": 24,
+      "npz_path": "data/cache_wlasl100/69396.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69395",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/69395.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "06330",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06330.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "30849",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30849.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "17724",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17724.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "62244",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62244.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "15043",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15043.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65086",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/65086.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69413",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/69413.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69411",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/69411.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69345",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/69345.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "39000",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/39000.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "49176",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49176.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "06476",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/06476.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "31751",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31751.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69402",
+      "label": 25,
+      "npz_path": "data/cache_wlasl100/69402.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32255",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32255.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69359",
+      "label": 40,
+      "npz_path": "data/cache_wlasl100/69359.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "24952",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24952.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "05750",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05750.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "14887",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14887.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "45262",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45262.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "45267",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/45267.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "09851",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09851.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "09854",
+      "label": 4,
+      "npz_path": "data/cache_wlasl100/09854.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "40835",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40835.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "48124",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48124.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32263",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32263.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "42833",
+      "label": 67,
+      "npz_path": "data/cache_wlasl100/42833.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "66097",
+      "label": 45,
+      "npz_path": "data/cache_wlasl100/66097.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "50052",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50052.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65843",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/65843.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "56840",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56840.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "24946",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24946.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "38994",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38994.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69213",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/69213.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63788",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63788.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "14672",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14672.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57933",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57933.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "08426",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08426.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "40840",
+      "label": 91,
+      "npz_path": "data/cache_wlasl100/40840.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "15037",
+      "label": 84,
+      "npz_path": "data/cache_wlasl100/15037.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13641",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13641.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "21874",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21874.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "21872",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21872.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63669",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63669.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "43166",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43166.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "49182",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49182.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63795",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63795.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "48108",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48108.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "58497",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58497.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "08929",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08929.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69524",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/69524.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "24639",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24639.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "19257",
+      "label": 62,
+      "npz_path": "data/cache_wlasl100/19257.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69238",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/69238.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69236",
+      "label": 19,
+      "npz_path": "data/cache_wlasl100/69236.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69233",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/69233.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "45438",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45438.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "45435",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/45435.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69307",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/69307.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69302",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/69302.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "17083",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17083.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "42977",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42977.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "12315",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12315.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "12312",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12312.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "58370",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58370.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "07973",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/07973.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "66591",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/66591.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "08918",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08918.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "66112",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/66112.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69531",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/69531.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69533",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/69533.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "28112",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/28112.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "24641",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24641.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69316",
+      "label": 37,
+      "npz_path": "data/cache_wlasl100/69316.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "42962",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42962.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "64211",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64211.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "12326",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12326.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "18323",
+      "label": 61,
+      "npz_path": "data/cache_wlasl100/18323.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "37882",
+      "label": 90,
+      "npz_path": "data/cache_wlasl100/37882.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "02999",
+      "label": 52,
+      "npz_path": "data/cache_wlasl100/02999.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65792",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/65792.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32156",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32156.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32154",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32154.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "49606",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/49606.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13203",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13203.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "40118",
+      "label": 27,
+      "npz_path": "data/cache_wlasl100/40118.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65163",
+      "label": 32,
+      "npz_path": "data/cache_wlasl100/65163.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32948",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32948.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "10904",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/10904.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65342",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/65342.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65341",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/65341.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "21942",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21942.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "21949",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21949.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "53269",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53269.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "10151",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10151.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "62158",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62158.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "30833",
+      "label": 87,
+      "npz_path": "data/cache_wlasl100/30833.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "66015",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/66015.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13696",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13696.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13197",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13197.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13698",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13698.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69274",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/69274.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "53274",
+      "label": 97,
+      "npz_path": "data/cache_wlasl100/53274.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "00627",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00627.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "00626",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00626.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "62965",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62965.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "14903",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14903.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "23775",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23775.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "23776",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23776.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "25330",
+      "label": 39,
+      "npz_path": "data/cache_wlasl100/25330.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65294",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/65294.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "51220",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51220.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "51227",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51227.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "51224",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51224.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57948",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57948.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69511",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/69511.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "01398",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01398.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "01391",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01391.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "07388",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07388.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "05232",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05232.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69455",
+      "label": 70,
+      "npz_path": "data/cache_wlasl100/69455.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57629",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57629.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57628",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57628.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13155",
+      "label": 83,
+      "npz_path": "data/cache_wlasl100/13155.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "33268",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33268.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63230",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63230.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "09955",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09955.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "09957",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09957.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "07398",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07398.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "22114",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22114.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "22113",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22113.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "51081",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51081.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32320",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32320.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32323",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32323.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "32325",
+      "label": 44,
+      "npz_path": "data/cache_wlasl100/32325.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57639",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57639.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "17016",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17016.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "33270",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33270.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63229",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63229.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "07099",
+      "label": 0,
+      "npz_path": "data/cache_wlasl100/07099.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13703",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13703.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13634",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13634.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "13633",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13633.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69546",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/69546.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69364",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/69364.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57285",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57285.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "57282",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57282.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "69368",
+      "label": 22,
+      "npz_path": "data/cache_wlasl100/69368.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65402",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/65402.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "05239",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/05239.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "64287",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64287.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "62988",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62988.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "17734",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17734.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "38533",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38533.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "41027",
+      "label": 92,
+      "npz_path": "data/cache_wlasl100/41027.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "58365",
+      "label": 99,
+      "npz_path": "data/cache_wlasl100/58365.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "66607",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/66607.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "63237",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63237.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "65891",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/65891.npz",
+      "subset": "val"
+    },
+    {
+      "clip_id": "28203",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28203.npz",
+      "subset": "val"
+    }
+  ],
+  "test": [
+    {
+      "clip_id": "51068",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51068.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "51066",
+      "label": 46,
+      "npz_path": "data/cache_wlasl100/51066.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69370",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/69370.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "06335",
+      "label": 53,
+      "npz_path": "data/cache_wlasl100/06335.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "64293",
+      "label": 17,
+      "npz_path": "data/cache_wlasl100/64293.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "65506",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/65506.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "05739",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05739.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "14685",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14685.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "63201",
+      "label": 49,
+      "npz_path": "data/cache_wlasl100/63201.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "62247",
+      "label": 74,
+      "npz_path": "data/cache_wlasl100/62247.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "65884",
+      "label": 41,
+      "npz_path": "data/cache_wlasl100/65884.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "49173",
+      "label": 96,
+      "npz_path": "data/cache_wlasl100/49173.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "05741",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05741.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13198",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13198.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13196",
+      "label": 20,
+      "npz_path": "data/cache_wlasl100/13196.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "31750",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31750.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "32253",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32253.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "57278",
+      "label": 98,
+      "npz_path": "data/cache_wlasl100/57278.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69439",
+      "label": 93,
+      "npz_path": "data/cache_wlasl100/69439.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "14888",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14888.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "14883",
+      "label": 10,
+      "npz_path": "data/cache_wlasl100/14883.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "48126",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48126.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "31749",
+      "label": 42,
+      "npz_path": "data/cache_wlasl100/31749.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "32246",
+      "label": 65,
+      "npz_path": "data/cache_wlasl100/32246.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "56843",
+      "label": 48,
+      "npz_path": "data/cache_wlasl100/56843.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "38991",
+      "label": 26,
+      "npz_path": "data/cache_wlasl100/38991.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "63789",
+      "label": 75,
+      "npz_path": "data/cache_wlasl100/63789.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "14673",
+      "label": 59,
+      "npz_path": "data/cache_wlasl100/14673.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "08425",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08425.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "08429",
+      "label": 80,
+      "npz_path": "data/cache_wlasl100/08429.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "50041",
+      "label": 71,
+      "npz_path": "data/cache_wlasl100/50041.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "65300",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/65300.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "21890",
+      "label": 11,
+      "npz_path": "data/cache_wlasl100/21890.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "63664",
+      "label": 31,
+      "npz_path": "data/cache_wlasl100/63664.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69269",
+      "label": 82,
+      "npz_path": "data/cache_wlasl100/69269.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "08925",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08925.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "24636",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24636.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "06360",
+      "label": 78,
+      "npz_path": "data/cache_wlasl100/06360.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "27213",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27213.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "24960",
+      "label": 5,
+      "npz_path": "data/cache_wlasl100/24960.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "57640",
+      "label": 29,
+      "npz_path": "data/cache_wlasl100/57640.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "64209",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64209.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "08915",
+      "label": 8,
+      "npz_path": "data/cache_wlasl100/08915.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "66111",
+      "label": 89,
+      "npz_path": "data/cache_wlasl100/66111.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69225",
+      "label": 77,
+      "npz_path": "data/cache_wlasl100/69225.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "27209",
+      "label": 12,
+      "npz_path": "data/cache_wlasl100/27209.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "65761",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/65761.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "17097",
+      "label": 36,
+      "npz_path": "data/cache_wlasl100/17097.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "42960",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/42960.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "64210",
+      "label": 16,
+      "npz_path": "data/cache_wlasl100/64210.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "12320",
+      "label": 2,
+      "npz_path": "data/cache_wlasl100/12320.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "11311",
+      "label": 6,
+      "npz_path": "data/cache_wlasl100/11311.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "48115",
+      "label": 95,
+      "npz_path": "data/cache_wlasl100/48115.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69252",
+      "label": 79,
+      "npz_path": "data/cache_wlasl100/69252.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69257",
+      "label": 35,
+      "npz_path": "data/cache_wlasl100/69257.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "32157",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32157.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13334",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13334.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "33286",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/33286.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "62160",
+      "label": 15,
+      "npz_path": "data/cache_wlasl100/62160.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "01986",
+      "label": 18,
+      "npz_path": "data/cache_wlasl100/01986.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "32167",
+      "label": 43,
+      "npz_path": "data/cache_wlasl100/32167.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "21944",
+      "label": 21,
+      "npz_path": "data/cache_wlasl100/21944.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13325",
+      "label": 56,
+      "npz_path": "data/cache_wlasl100/13325.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69431",
+      "label": 68,
+      "npz_path": "data/cache_wlasl100/69431.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69433",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/69433.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "62975",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62975.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "24649",
+      "label": 64,
+      "npz_path": "data/cache_wlasl100/24649.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "10159",
+      "label": 81,
+      "npz_path": "data/cache_wlasl100/10159.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "23767",
+      "label": 85,
+      "npz_path": "data/cache_wlasl100/23767.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "32950",
+      "label": 88,
+      "npz_path": "data/cache_wlasl100/32950.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "35513",
+      "label": 66,
+      "npz_path": "data/cache_wlasl100/35513.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "43171",
+      "label": 69,
+      "npz_path": "data/cache_wlasl100/43171.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "00625",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00625.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "22954",
+      "label": 63,
+      "npz_path": "data/cache_wlasl100/22954.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "62967",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62967.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "01386",
+      "label": 76,
+      "npz_path": "data/cache_wlasl100/01386.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "00634",
+      "label": 51,
+      "npz_path": "data/cache_wlasl100/00634.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "57941",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57941.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "57943",
+      "label": 14,
+      "npz_path": "data/cache_wlasl100/57943.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "55375",
+      "label": 47,
+      "npz_path": "data/cache_wlasl100/55375.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "51233",
+      "label": 72,
+      "npz_path": "data/cache_wlasl100/51233.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "17713",
+      "label": 1,
+      "npz_path": "data/cache_wlasl100/17713.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "09950",
+      "label": 54,
+      "npz_path": "data/cache_wlasl100/09950.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "22117",
+      "label": 38,
+      "npz_path": "data/cache_wlasl100/22117.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69440",
+      "label": 94,
+      "npz_path": "data/cache_wlasl100/69440.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13710",
+      "label": 57,
+      "npz_path": "data/cache_wlasl100/13710.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "07400",
+      "label": 34,
+      "npz_path": "data/cache_wlasl100/07400.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "65415",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/65415.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "64097",
+      "label": 50,
+      "npz_path": "data/cache_wlasl100/64097.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "38525",
+      "label": 13,
+      "npz_path": "data/cache_wlasl100/38525.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "63226",
+      "label": 7,
+      "npz_path": "data/cache_wlasl100/63226.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "58502",
+      "label": 73,
+      "npz_path": "data/cache_wlasl100/58502.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "13635",
+      "label": 9,
+      "npz_path": "data/cache_wlasl100/13635.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "69389",
+      "label": 23,
+      "npz_path": "data/cache_wlasl100/69389.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "11772",
+      "label": 55,
+      "npz_path": "data/cache_wlasl100/11772.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "17020",
+      "label": 60,
+      "npz_path": "data/cache_wlasl100/17020.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "62987",
+      "label": 30,
+      "npz_path": "data/cache_wlasl100/62987.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "05727",
+      "label": 3,
+      "npz_path": "data/cache_wlasl100/05727.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "06845",
+      "label": 33,
+      "npz_path": "data/cache_wlasl100/06845.npz",
+      "subset": "test"
+    },
+    {
+      "clip_id": "28201",
+      "label": 86,
+      "npz_path": "data/cache_wlasl100/28201.npz",
+      "subset": "test"
+    }
+  ]
+}
