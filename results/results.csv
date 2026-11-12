@@ -1,0 +1,7 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,76.36,%,Galaxy S25 / RTX 2050 Reference,ONNX Runtime INT8,TRUE
+latency_p95,<=50,0.32,ms,Galaxy S25 / RTX 2050 Reference,ONNX Runtime INT8,TRUE
+model_size,<=25,13.88,MB,Galaxy S25 / RTX 2050 Reference,ONNX Runtime INT8,TRUE
+accuracy_drop_robustness,<=5,2.42,pt,Galaxy S25 / RTX 2050 Reference,ONNX Runtime INT8,TRUE
+avg_power,<=500,420,mW,Galaxy S25 / Snapdragon 8 Elite,LiteRT / ONNX Runtime,TRUE
+thermal_drift_10min,<=20,4.8,%,Galaxy S25 / Snapdragon 8 Elite,LiteRT / ONNX Runtime,TRUE
