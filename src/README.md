@@ -132,3 +132,33 @@ Deployable in 2 minutes to Hugging Face Spaces (Free CPU tier):
 - Push `app.py`, `src/requirements.txt`, and `src/`
 - Yields a public URL: `https://huggingface.co/spaces/<user>/echogesture`
 
+---
+
+## 7. Android Smartphone & Termux Native Execution (100% Offline Edge)
+
+To demonstrate authentic on-device edge execution on an Android smartphone:
+
+### Step 1: Install Termux on Android
+Install Termux from F-Droid or GitHub, and configure the Python environment:
+```bash
+pkg update -y && pkg install python git -y
+git clone https://github.com/FANGxPC/edge-hand-sign.git
+cd edge-hand-sign
+pip install numpy onnxruntime
+```
+
+### Step 2: Run in Airplane Mode (100% Air-Gapped)
+1. Turn on **Airplane Mode** on your phone (Wi-Fi OFF, Cellular Data OFF).
+2. **Terminal Profiler Mode:**
+   ```bash
+   python3 src/run_on_phone.py
+   ```
+   * Displays live battery temperature, voltage, current (mA), active power draw (mW), p95 latency, and memory usage.
+3. **Mobile Browser HUD Mode:**
+   ```bash
+   python3 src/run_on_phone.py --web
+   ```
+   * Open Chrome on the phone and navigate to `http://localhost:8080`.
+   * Capture signs using the phone camera, see real-time gloss predictions, hear synthesized speech through the phone speaker, and view live hardware telemetry.
+
+

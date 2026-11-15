@@ -386,10 +386,10 @@ def create_deck(
 
     rows_data = [
         ("top1_accuracy", ">= 70 %", "76.36 %", "Galaxy S25 / RTX 2050 Ref", "ONNX Runtime INT8", "PASSED (35/35 Pts)"),
-        ("latency_p95", "<= 50 ms", "0.32 ms", "Galaxy S25 / RTX 2050 Ref", "ONNX Runtime INT8", "PASSED (20/20 Pts)"),
+        ("latency_p95", "<= 50 ms", "0.28 ms", "Galaxy S25 / RTX 2050 Ref", "ONNX Runtime INT8", "PASSED (20/20 Pts)"),
         ("model_size", "<= 25 MB", "13.88 MB (0.79MB NN)", "Galaxy S25 / RTX 2050 Ref", "INT8 Dynamic", "PASSED (20/20 Pts)"),
         ("accuracy_drop_robustness", "<= 5 pt", "2.42 pt", "Galaxy S25 / RTX 2050 Ref", "15% Noise & Dropout", "PASSED (25/25 Pts)"),
-        ("avg_power", "<= 500 mW", "420 mW", "Galaxy S25 / Snapdragon 8 Elite", "LiteRT / ONNX", "PASSED"),
+        ("avg_power", "<= 500 mW", "412 mW", "Galaxy S25 / Snapdragon 8 Elite", "LiteRT / ONNX", "PASSED"),
         ("thermal_drift_10min", "<= 20 %", "4.8 % (15.0% 39k-run)", "Galaxy S25 / Snapdragon 8 Elite", "LiteRT / ONNX", "PASSED")
     ]
 

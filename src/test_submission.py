@@ -17,7 +17,13 @@ import tempfile
 import numpy as np
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-SRC_DIR = os.path.join(CURRENT_DIR, "src")
+if os.path.basename(CURRENT_DIR) == "src":
+    SRC_DIR = CURRENT_DIR
+    PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+else:
+    SRC_DIR = os.path.join(CURRENT_DIR, "src")
+    PROJECT_ROOT = CURRENT_DIR
+
 if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
@@ -26,7 +32,7 @@ from main import predict, get_predictor, DEFAULT_VOCAB
 
 def test_contract_schema():
     print("[Test 1/6] Testing predict() schema contract...")
-    test_file = os.path.join(CURRENT_DIR, "sample_test_clip.mp4")
+    test_file = os.path.join(PROJECT_ROOT, "sample_test_clip.mp4")
     res = predict(test_file)
     assert isinstance(res, dict), "Result must be a dict"
     assert "clip_id" in res, "Missing clip_id"

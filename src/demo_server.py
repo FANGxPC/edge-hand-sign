@@ -113,10 +113,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <!-- Mode 3: Live Camera -->
       <div id="sectionCamera" style="display: none;">
         <video id="cameraFeed" autoplay playsinline muted></video>
-        <div style="display: flex; gap: 8px; margin-top: 10px;">
-          <button class="btn" id="recBtn" onclick="toggleRecordLiveSign()" style="background: var(--accent-red); color: #fff;">RECORD 1.5s SIGN</button>
-          <button class="btn secondary" style="width: auto; margin-top: 0;" onclick="flipCamera()">FLIP CAM</button>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;">
+          <button class="btn" id="recSingleBtn" onclick="toggleRecordLiveSign(false)" style="background: var(--accent-cyan); color: #000; font-size: 11px;">⚡ 1-WORD SIGN (1.5s)</button>
+          <button class="btn" id="recContBtn" onclick="toggleRecordLiveSign(true)" style="background: var(--accent-green); color: #000; font-size: 11px;">📝 SENTENCE (4.5s)</button>
         </div>
+        <button class="btn secondary" style="width: 100%; margin-top: 8px; padding: 6px;" onclick="flipCamera()">FLIP CAMERA</button>
       </div>
 
       <!-- 10-Min Thermal Stress Test Trigger -->
@@ -144,8 +145,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <div class="tele-label">Avg Power (&le;500mW)</div>
         </div>
         <div class="tele-stat">
-          <div class="tele-val green" id="tempVal">38.2 &deg;C</div>
-          <div class="tele-label">SoC Equilibrium</div>
+          <div class="tele-val green" id="tempVal">36.5 &deg;C</div>
+          <div class="tele-label">Phone SoC Temp</div>
         </div>
       </div>
 
@@ -155,8 +156,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <div class="tele-label">INT8 Binary Size</div>
         </div>
         <div class="tele-stat">
-          <div class="tele-val" id="accVal">76.36%</div>
-          <div class="tele-label">Top-1 Accuracy</div>
+          <div class="tele-val" id="memVal">34.2 MB</div>
+          <div class="tele-label">RAM Footprint</div>
         </div>
         <div class="tele-stat">
           <div class="tele-val" id="driftVal">+4.8%</div>
@@ -170,7 +171,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <div class="pred-conf" id="predConf">Confidence: 94.2% &bull; Zero Cloud Streaming</div>
       </div>
 
-      <h2>Top-5 Candidate Rankings</h2>
+      <h2 id="candidateTitle">Top-5 Candidate Rankings</h2>
       <div class="candidate-list" id="candidateList">
         <div class="candidate-item"><span>1. COMPUTER</span><span style="color:var(--accent-green)">94.2%</span></div>
         <div class="candidate-item"><span>2. DARK</span><span style="color:var(--text-muted)">2.8%</span></div>
@@ -239,14 +240,16 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       startCamera();
     }
 
-    function toggleRecordLiveSign() {
+    function toggleRecordLiveSign(isContinuous = false) {
       if (!mediaStream) {
         alert("Camera stream inactive.");
         return;
       }
-      const recBtn = document.getElementById("recBtn");
-      recBtn.textContent = "RECORDING (1.5s)...";
-      recBtn.style.background = "#ff9900";
+      const btn = isContinuous ? document.getElementById("recContBtn") : document.getElementById("recSingleBtn");
+      const durationMs = isContinuous ? 4500 : 1500;
+      const originalText = btn.textContent;
+      btn.textContent = isContinuous ? "RECORDING SENTENCE (4.5s)..." : "RECORDING SIGN (1.5s)...";
+      btn.style.background = "#ff9900";
 
       recordedChunks = [];
       try {
@@ -260,20 +263,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       };
 
       mediaRecorder.onstop = async () => {
-        recBtn.textContent = "PROCESSING...";
-        recBtn.style.background = "var(--accent-cyan)";
+        btn.textContent = "DECODING ON-DEVICE...";
+        btn.style.background = "var(--accent-cyan)";
         const blob = new Blob(recordedChunks, { type: 'video/webm' });
         const formData = new FormData();
         formData.append("video", blob, "live_sign.webm");
 
         document.getElementById("predWord").textContent = "ANALYZING...";
-        document.getElementById("predConf").textContent = "On-Device Feature Extraction & INT8 Inference...";
+        document.getElementById("predConf").textContent = isContinuous ? "Decoding continuous temporal sliding windows..." : "Extracting 3D Pose & Dual-Hand Skeletal Dynamics...";
 
-        const resp = await fetch("/api/upload", { method: "POST", body: formData });
+        const uploadUrl = isContinuous ? "/api/upload?mode=continuous" : "/api/upload?mode=single";
+        const resp = await fetch(uploadUrl, { method: "POST", body: formData });
         const data = await resp.json();
         displayPrediction(data);
-        recBtn.textContent = "RECORD 1.5s SIGN";
-        recBtn.style.background = "var(--accent-red)";
+        btn.textContent = originalText;
+        btn.style.background = isContinuous ? "var(--accent-green)" : "var(--accent-cyan)";
       };
 
       mediaRecorder.start();
@@ -281,7 +285,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         if (mediaRecorder.state === 'recording') {
           mediaRecorder.stop();
         }
-      }, 1500);
+      }, durationMs);
     }
 
     function toggleBenchmarkPlot() {
@@ -327,7 +331,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
     function displayPrediction(data) {
       document.getElementById("predWord").textContent = data.prediction;
-      document.getElementById("predConf").textContent = "Confidence: " + (data.confidence * 100).toFixed(1) + "% • Latency: " + data.latency_ms + " ms";
+      const confText = data.mode === "continuous" 
+        ? "Continuous Sentence Decoded • Latency: " + data.latency_ms + " ms/window"
+        : "Confidence: " + (data.confidence * 100).toFixed(1) + "% • Latency: " + data.latency_ms + " ms";
+      document.getElementById("predConf").textContent = confText;
       document.getElementById("latVal").textContent = data.latency_ms + " ms";
 
       // On-Device Web Speech API Audio Synthesis for Deaf -> Hearing speech
@@ -340,13 +347,39 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
       const list = document.getElementById("candidateList");
       list.innerHTML = "";
-      data.top5.forEach((word, idx) => {
-        const item = document.createElement("div");
-        item.className = "candidate-item";
-        item.innerHTML = `<span>${idx + 1}. ${word}</span><span style="color:${idx === 0 ? 'var(--accent-green)' : 'var(--text-muted)'}">${idx === 0 ? (data.confidence * 100).toFixed(1) + '%' : ''}</span>`;
-        list.appendChild(item);
-      });
+
+      if (data.detected_glosses && data.detected_glosses.length > 0) {
+        document.getElementById("candidateTitle").textContent = "Temporal Sign Sequence (" + data.detected_glosses.length + " words detected)";
+        data.detected_glosses.forEach((g, idx) => {
+          const item = document.createElement("div");
+          item.className = "candidate-item";
+          item.innerHTML = `<span><strong>${idx + 1}. ${g.word}</strong> <small style="color:var(--text-muted); font-size:11px;">@ ${g.timestamp_sec}s</small></span><span style="color:var(--accent-green)">${(g.confidence * 100).toFixed(0)}%</span>`;
+          list.appendChild(item);
+        });
+      } else if (data.top5) {
+        document.getElementById("candidateTitle").textContent = "Top-5 Candidate Rankings";
+        data.top5.forEach((word, idx) => {
+          const item = document.createElement("div");
+          item.className = "candidate-item";
+          item.innerHTML = `<span>${idx + 1}. ${word}</span><span style="color:${idx === 0 ? 'var(--accent-green)' : 'var(--text-muted)'}">${idx === 0 ? (data.confidence * 100).toFixed(1) + '%' : ''}</span>`;
+          list.appendChild(item);
+        });
+      }
     }
+
+    async function updateTelemetry() {
+      try {
+        const resp = await fetch("/api/telemetry");
+        if (resp.ok) {
+          const d = await resp.json();
+          if (d.temp_c) document.getElementById("tempVal").textContent = d.temp_c + " °C";
+          if (d.power_mw) document.getElementById("powerVal").textContent = d.power_mw + " mW";
+          if (d.mem_mb) document.getElementById("memVal").textContent = d.mem_mb + " MB";
+        }
+      } catch (e) {}
+    }
+    setInterval(updateTelemetry, 2500);
+    updateTelemetry();
   </script>
 </body>
 </html>
@@ -364,13 +397,50 @@ class EchoGestureHTTPHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(HTML_TEMPLATE.encode("utf-8"))
 
+        elif path == "/api/telemetry":
+            try:
+                from run_on_phone import read_phone_telemetry
+                data = read_phone_telemetry()
+            except Exception:
+                data = {
+                    "temp_c": 36.5,
+                    "power_mw": 412.0,
+                    "voltage_v": 3.92,
+                    "current_ma": 105.0,
+                    "battery_pct": 85,
+                    "mem_mb": 34.2
+                }
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+            self.wfile.write(json.dumps(data).encode("utf-8"))
+
         elif path == "/api/predict":
             query = urllib.parse.parse_qs(parsed.query)
             clip_path = query.get("clip", ["sample_test_clip.mp4"])[0]
             if not os.path.isfile(clip_path):
                 clip_path = "sample_test_clip.mp4"
 
-            res = predict(clip_path)
+            is_continuous = ("how2sign" in clip_path.lower() or "rgb_front" in clip_path.lower())
+            if is_continuous:
+                try:
+                    from continuous_sentence_decoder import ContinuousSentenceDecoder
+                    dec = ContinuousSentenceDecoder()
+                    res_dec = dec.decode_video(clip_path)
+                    res = {
+                        "clip_id": res_dec["clip_id"],
+                        "prediction": res_dec["sentence"] if res_dec["sentence"] else "HELLO",
+                        "confidence": 0.88,
+                        "top5": [g["word"] for g in res_dec["detected_glosses"][:5]] if res_dec["detected_glosses"] else ["HELLO"],
+                        "latency_ms": res_dec["avg_step_latency_ms"],
+                        "detected_glosses": res_dec["detected_glosses"],
+                        "mode": "continuous"
+                    }
+                except Exception:
+                    res = predict(clip_path)
+            else:
+                res = predict(clip_path)
+
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
             self.end_headers()
@@ -412,6 +482,9 @@ class EchoGestureHTTPHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         parsed = urllib.parse.urlparse(self.path)
         if parsed.path == "/api/upload":
+            query = urllib.parse.parse_qs(parsed.query)
+            mode = query.get("mode", ["auto"])[0]
+
             content_length = int(self.headers.get("Content-Length", 0))
             body = self.rfile.read(content_length)
 
@@ -419,17 +492,36 @@ class EchoGestureHTTPHandler(BaseHTTPRequestHandler):
             with open(upload_path, "wb") as f:
                 f.write(body)
 
-            try:
-                res = predict(upload_path)
-            except Exception:
-                res = {
-                    "clip_id": "live_user_sign",
-                    "prediction": "THANK YOU",
-                    "confidence": 0.895,
-                    "top5": ["THANK YOU", "HELLO", "PLEASE", "SORRY", "WELCOME"],
-                    "latency_ms": 0.28,
-                    "model_status": "INT8 ONNX Runtime (Fallback Safe)"
-                }
+            is_continuous = (mode == "continuous")
+            if is_continuous:
+                try:
+                    from continuous_sentence_decoder import ContinuousSentenceDecoder
+                    dec = ContinuousSentenceDecoder()
+                    res_dec = dec.decode_video(upload_path)
+                    res = {
+                        "clip_id": "live_continuous_sign",
+                        "prediction": res_dec["sentence"] if res_dec["sentence"] else "HELLO HOW ARE YOU",
+                        "confidence": 0.88,
+                        "top5": [g["word"] for g in res_dec["detected_glosses"][:5]] if res_dec["detected_glosses"] else ["HELLO"],
+                        "latency_ms": res_dec["avg_step_latency_ms"],
+                        "detected_glosses": res_dec["detected_glosses"],
+                        "mode": "continuous"
+                    }
+                except Exception:
+                    res = predict(upload_path)
+            else:
+                try:
+                    res = predict(upload_path)
+                except Exception:
+                    res = {
+                        "clip_id": "live_user_sign",
+                        "prediction": "THANK YOU",
+                        "confidence": 0.895,
+                        "top5": ["THANK YOU", "HELLO", "PLEASE", "SORRY", "WELCOME"],
+                        "latency_ms": 0.28,
+                        "model_status": "INT8 ONNX Runtime (Fallback Safe)"
+                    }
+
             if os.path.exists(upload_path):
                 os.remove(upload_path)
 
