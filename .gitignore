@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 *.mp4
+!demo.mp4
 temp_perturbed.mp4
 .DS_Store
 .gradle_cache/

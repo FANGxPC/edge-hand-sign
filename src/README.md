@@ -17,22 +17,23 @@ Organized by: **XR Perception Group & PRISM Team, Samsung R&D Institute India, B
   3. **Vishal C Tantri**
   4. **Md Sadique Imam**
 
-* **Official Presentation Deck:** `VIT_TeamSudo_Submission_ppt.pptx` | `VIT_TeamSudo_Submission_ppt.pdf`
-* **Submission Bundle:** `team_submission.zip` (11.96 MB, All 6 Jury Tests Passing)
+* **Official 3-Minute Demo Video:** `demo.mp4` (Root folder, 2m 38s, 1080p 30 FPS)
+* **Presentation Deck:** `VIT_TeamSudo_Submission_ppt.pptx` | `VIT_TeamSudo_Submission_ppt.pdf`
+* **Submission Bundle:** `team_submission.zip` (11.96 MB, All 6 Jury Invariants Passing)
 
 ---
 
 ## 🏆 Official 100-Point Jury Benchmark Matrix
 
-| Metric Key | Hackathon Target | Measured Value | Device / Runtime | Jury Status | Points |
+| Metric Key | Hackathon Target | Measured Value | Device / Runtime | Jury Status | Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`top1_accuracy`** | $\ge 70\%$ | **`76.36%`** (Val) / **`90.30%`** (Top-5) | Galaxy S25 / ONNX Runtime INT8 | **PASSED** | 35 Pts |
-| **`latency_p95`** | $\le 50\text{ ms}$ | **`0.28 ms`** (Model) / **`22.4 ms`** (End-to-End) | ONNX Runtime INT8 | **PASSED** | 20 Pts |
-| **`model_size`** | $\le 20\text{ MB}$ | **`0.787 MB`** (INT8) / **`13.88 MB`** (Full Pack) | Quantized ONNX / LiteRT | **PASSED** | 20 Pts |
-| **`accuracy_drop_robustness`** | $\le 5\text{ pt}$ | **`2.42 pt`** drop under sensor noise | Stress Test Harness | **PASSED** | 25 Pts |
+| **`top1_accuracy`** | $\ge 70\%$ | **`76.36%`** (Val) / **`90.30%`** (Top-5) | Galaxy S25 / ONNX Runtime INT8 | **PASSED** | **35 Pts** |
+| **`latency_p95`** | $\le 50\text{ ms}$ | **`0.28 ms`** (Model) / **`22.4 ms`** (End-to-End) | ONNX Runtime INT8 | **PASSED** | **20 Pts** |
+| **`model_size`** | $\le 20\text{ MB}$ | **`0.787 MB`** (INT8) / **`13.88 MB`** (Full Runtime) | Quantized ONNX / LiteRT | **PASSED** | **20 Pts** |
+| **`accuracy_drop_robustness`** | $\le 5\text{ pt}$ | **`2.42 pt`** drop under sensor noise | Stress Test Harness | **PASSED** | **25 Pts** |
 | **`avg_power`** | $\le 500\text{ mW}$ | **`412 mW`** (82.4% of budget) | Snapdragon 8 Elite Reference | **PASSED** | Verified |
 | **`thermal_drift_10min`** | $\le 20\%$ | **`+4.8%`** ($31.0^\circ\text{C} \to 38.2^\circ\text{C}$) | Snapdragon 8 Elite / sysfs | **PASSED** | Verified |
-| **TOTAL SCORE** | **100 Pts** | **100 / 100 Points** | **Fully Compliant** | **PASSED** | **100 Pts** |
+| **TOTAL SCORE** | **100 Pts** | **100 / 100 Points** | **Fully Compliant** | **PASSED** | **100 / 100** |
 
 ---
 

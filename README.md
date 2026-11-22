@@ -6,6 +6,22 @@ Organized by: **XR Perception Group & PRISM Team, Samsung R&D Institute India, B
 
 ---
 
+## 🎬 Official 3-Minute Demo Video
+
+> **Direct Video Playback & Walkthrough** (Recorded on edge hardware, 1080p 30 FPS, duration: 2 min 38 sec):
+
+<p align="center">
+  <video src="demo.mp4" controls="controls" width="100%" style="max-height: 520px; border-radius: 10px; border: 1px solid #1e2d5a; box-shadow: 0 4px 20px rgba(0, 180, 216, 0.15);">
+    Your browser does not support the video tag. You can view or download the video directly at <a href="demo.mp4">demo.mp4</a>.
+  </video>
+</p>
+
+* 🌐 **[Direct GitHub Video Player Link](https://github.com/FANGxPC/edge-hand-sign/blob/main/demo.mp4)**
+* 📥 **[Download / Stream Raw Video File (demo.mp4)](demo.mp4)**
+* 📝 **[Timestamped Script & Stage Cues](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/DEMO_VIDEO_SCRIPT_3MIN.md)** (6 Acts, 278 words, ~120 WPM cadence)
+
+---
+
 ## 👥 Team & Institution Information
 
 * **Track:** Track 02 — EchoGesture (Sign Language Prediction on Edge Device)
@@ -18,25 +34,24 @@ Organized by: **XR Perception Group & PRISM Team, Samsung R&D Institute India, B
   4. **Md Sadique Imam**
 
 * **Official Presentation Deck:** [`VIT_TeamSudo_Submission_ppt.pptx`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/VIT_TeamSudo_Submission_ppt.pptx) | [`VIT_TeamSudo_Submission_ppt.pdf`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/VIT_TeamSudo_Submission_ppt.pdf)
-* **Demo Video:** *[3-Minute Demo Video — YouTube / Google Drive Link]*
-* **Demo Script & Cues:** [`DEMO_VIDEO_SCRIPT_3MIN.md`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/DEMO_VIDEO_SCRIPT_3MIN.md)
-* **Submission Bundle:** `team_submission.zip` (11.96 MB, All 6 Jury Tests Passing)
+* **Template-Nomenclature Deck:** [`CollegeName_TeamName_Submission_ppt.pptx`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/CollegeName_TeamName_Submission_ppt.pptx) | [`CollegeName_TeamName_Submission_ppt.pdf`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/CollegeName_TeamName_Submission_ppt.pdf)
+* **Evaluator Bundle:** [`team_submission.zip`](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/team_submission.zip) (`11.96 MB`, All 6 Jury Invariants Passing)
 
 ---
 
 ## 🏆 Official 100-Point Jury Benchmark Matrix
 
-All metrics rigorously measured on reference hardware (Galaxy S25 / Snapdragon 8 Elite & RTX 2050):
+All metrics measured and verified on reference hardware (**Samsung Galaxy S25 / Snapdragon 8 Elite** & **RTX 2050**):
 
-| Metric Key | Hackathon Target | Measured Value | Device / Runtime | Jury Status | Points |
+| Metric Key | Hackathon Target | Measured Value | Device / Runtime | Jury Status | Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`top1_accuracy`** | $\ge 70\%$ | **`76.36%`** (Val) / **`90.30%`** (Top-5) | Galaxy S25 / ONNX Runtime INT8 | **PASSED** | 35 Pts |
-| **`latency_p95`** | $\le 50\text{ ms}$ | **`0.28 ms`** (Model) / **`22.4 ms`** (End-to-End) | ONNX Runtime INT8 | **PASSED** | 20 Pts |
-| **`model_size`** | $\le 20\text{ MB}$ | **`0.787 MB`** (INT8) / **`13.88 MB`** (Full Pack) | Quantized ONNX / LiteRT | **PASSED** | 20 Pts |
-| **`accuracy_drop_robustness`** | $\le 5\text{ pt}$ | **`2.42 pt`** drop under sensor noise | Stress Test Harness | **PASSED** | 25 Pts |
+| **`top1_accuracy`** | $\ge 70\%$ | **`76.36%`** (Val) / **`90.30%`** (Top-5) | Galaxy S25 / ONNX Runtime INT8 | **PASSED** | **35 Pts** |
+| **`latency_p95`** | $\le 50\text{ ms}$ | **`0.28 ms`** (Model) / **`22.4 ms`** (End-to-End) | ONNX Runtime INT8 | **PASSED** | **20 Pts** |
+| **`model_size`** | $\le 20\text{ MB}$ | **`0.787 MB`** (INT8) / **`13.88 MB`** (Full Runtime) | Quantized ONNX / LiteRT | **PASSED** | **20 Pts** |
+| **`accuracy_drop_robustness`** | $\le 5\text{ pt}$ | **`2.42 pt`** drop under sensor noise | Stress Test Harness | **PASSED** | **25 Pts** |
 | **`avg_power`** | $\le 500\text{ mW}$ | **`412 mW`** (82.4% of budget) | Snapdragon 8 Elite Reference | **PASSED** | Verified |
 | **`thermal_drift_10min`** | $\le 20\%$ | **`+4.8%`** ($31.0^\circ\text{C} \to 38.2^\circ\text{C}$) | Snapdragon 8 Elite / sysfs | **PASSED** | Verified |
-| **TOTAL SCORE** | **100 Pts** | **100 / 100 Points** | **Fully Compliant** | **PASSED** | **100 Pts** |
+| **TOTAL SCORE** | **100 Pts** | **100 / 100 Points** | **Fully Compliant** | **PASSED** | **100 / 100** |
 
 ---
 
@@ -82,78 +97,75 @@ EchoGesture addresses the **Conversation Gap** ($\le 50\text{ ms}$ latency budge
 ```
 
 ### Key Architectural Strengths:
-1. **Pose Invariance:** Coordinates are translated to the upper-body shoulder midpoint and scaled by shoulder span. Hand landmarks are anchored in a wrist-relative coordinate frame.
-2. **Compact Edge Footprint:** Classifier utilizes depthwise-separable 1D convolutions ($0.787\text{ MB}$ INT8 binary footprint), easily satisfying the hackathon's $< 20\text{ MB}$ total budget.
-3. **Sub-Millisecond Inference:** Model forward pass executes in **0.28 ms**, enabling smooth 30 FPS HUD overlay with zero thermal downclocking.
-4. **Bystander Spatial Gating:** Automatically rejects background passersby beyond $2.5\times$ shoulder span to prevent false detections in public spaces.
-5. **Two-Way Conversational Relay:** Deaf sign translated to on-device audio (TTS); hearing companion voice transcribed to glowing cyan HUD subtitles.
+1. **Pose & Height Invariance:** Coordinates are translated to upper-body shoulder midpoint and scaled by shoulder span. Hand landmarks are anchored in a wrist-relative coordinate frame.
+2. **Compact Edge Footprint:** Classifier utilizes depthwise-separable 1D convolutions (**0.787 MB INT8 binary**, 256K parameters), easily satisfying Samsung's $< 20\text{ MB}$ budget.
+3. **Sub-Millisecond Inference:** Model forward pass executes in **0.28 ms**, leaving ample silicon headroom for battery and thermal stability.
+4. **Bystander Spatial Gating:** Automatically rejects background passerby hands beyond $2.5\times$ shoulder span to prevent false detections in public spaces.
+5. **Two-Way Conversational Relay:** Deaf sign translated to on-device audio (TTS); companion voice transcribed to glowing cyan XR HUD subtitles.
 6. **Zero-Crash Contract:** Handles missing hands, extreme camera angles, low illumination, and corrupted video containers without crashing.
 
 ---
 
-## 2. Directory Hierarchy
+## 2. Directory Hierarchy & Submission Structure
 
-Submissions conform strictly to the required hackathon hierarchy (Slide 17 & Slide 25):
+The repository adheres strictly to the required hackathon hierarchy (Slides 11, 17 & 25):
 
 ```
-team_submission.zip / TeamSudo.zip
-├── src/
-│   ├── main.py                  # Official evaluator entrypoint exposing predict()
-│   ├── extract_landmarks.py     # MediaPipe pose & hand coordinate extraction
-│   ├── features.py              # 3D normalization, wrist-relative frames, velocities
-│   ├── model.py                 # Depthwise-separable 1D TCN PyTorch / ONNX definition
-│   ├── quantize.py              # INT8 dynamic quantization script
-│   ├── hud_generator.py         # XR conversational HUD renderer
-│   ├── demo_server.py           # Interactive local web HUD demo server
-│   ├── live_webcam_test.py      # Real-time single-sign webcam recognition
-│   ├── profile_power_thermal.py # On-device /proc/self/stat silicon telemetry
-│   ├── run_on_phone.py          # Android / Termux offline execution harness
-│   ├── validate_submission.py   # Automated submission compliance verifier
-│   ├── test_submission.py       # 6-test automated jury verification suite
-│   ├── requirements.txt         # Pinned Python package dependencies
-│   ├── Dockerfile               # Standardized container for reproducibility
-│   ├── README.md                # Compilation, execution & reproducibility guide
-│   └── weights/
-│       ├── model_int8.onnx      # Quantized INT8 weights (0.787 MB)
-│       ├── model.onnx           # FP32 weights (1.0 MB)
-│       ├── hand_landmarker.task # MediaPipe hand model (7.5 MB)
-│       ├── pose_landmarker_lite.task # MediaPipe pose model (5.5 MB)
-│       ├── golden_vectors.json  # Cosine parity test vectors
-│       └── vocab.txt            # 100 sign vocabulary
-├── results/
-│   ├── predictions.jsonl        # Output JSON lines for test dataset
-│   ├── predictions.json         # Formatted predictions JSON
-│   ├── results.csv              # Official benchmark results sheet (all 6 metrics)
-│   ├── edge_thermal_power_benchmark.png # 10-minute thermal & power plot
-│   └── PRESENTATION_DECK_CONTENT.md     # Presentation content reference
-└── android/                     # Complete native Android Studio project
-```
-
----
-
-## 3. Environment & Setup
-
-### Requirements:
-- Python 3.10 / 3.11
-- Standard Linux / Android ARM64 environment
-
-### Installation:
-```bash
-python3 -m pip install -r src/requirements.txt
-```
-
-### Reproducible Docker Execution:
-```bash
-# Build the standardized container
-docker build -t echogesture:latest -f src/Dockerfile src/
-
-# Run inference inside container
-docker run --rm echogesture:latest python3 -c "from main import predict; print(predict('sample.mp4'))"
+edge-hand-sign/
+├── demo.mp4                                 # Official 3-minute demo video (1080p, 2m 38s)
+├── README.md                                # Top-level project guide & jury matrix
+├── VIT_TeamSudo_Submission_ppt.pptx         # Official presentation deck (VIT Vellore / Team-Sudo)
+├── VIT_TeamSudo_Submission_ppt.pdf          # PDF presentation deck
+├── CollegeName_TeamName_Submission_ppt.pptx # Template-nomenclature backup
+├── CollegeName_TeamName_Submission_ppt.pdf  # Template-nomenclature PDF backup
+├── DEMO_VIDEO_SCRIPT_3MIN.md               # Timestamped script & cues
+├── team_submission.zip                      # Standalone bundle for evaluator (11.96 MB)
+├── test_submission.py                       # Automated 6-test verification harness
+├── package_submission.py                    # Re-pack packaging tool
+│
+├── src/                                     # Complete source implementation
+│   ├── main.py                              # Official evaluator entrypoint (predict)
+│   ├── requirements.txt                     # Dependencies
+│   ├── README.md                            # Setup and execution guide
+│   ├── Dockerfile                           # Container definition
+│   ├── model.py                             # 1D-TCN model architecture
+│   ├── features.py                          # 320-dim pose-invariant kinematic extractor
+│   ├── extract_landmarks.py                 # MediaPipe + Bystander Spatial Gating
+│   ├── quantize.py                          # INT8 ONNX quantization script
+│   ├── validate_submission.py               # Schema & contract validator
+│   ├── test_submission.py                   # Embedded verification harness
+│   ├── demo_server.py                       # Zero-dependency web demo console
+│   ├── live_webcam_test.py                  # Live webcam test script
+│   ├── hud_generator.py                     # XR HUD rendering engine
+│   ├── profile_power_thermal.py             # Silicon telemetry profiler
+│   ├── run_on_phone.py                      # Offline mobile phone execution script
+│   └── weights/                             # Model binaries (< 20 MB total)
+│       ├── model_int8.onnx                  # Quantized INT8 weights (0.787 MB)
+│       ├── model.onnx                       # FP32 weights (1.0 MB)
+│       ├── hand_landmarker.task             # MediaPipe hand model (7.5 MB)
+│       ├── pose_landmarker_lite.task        # MediaPipe pose model (5.5 MB)
+│       ├── golden_vectors.json              # FP32 vs INT8 numerical cosine parity vectors
+│       └── vocab.txt                        # 100 sign vocabulary
+│
+├── results/                                 # Evaluator artifacts
+│   ├── results.csv                          # Benchmark CSV (all 6 metrics)
+│   ├── predictions.jsonl                    # 100 test clip predictions (one JSON per line)
+│   ├── predictions.json                     # Formatted predictions JSON
+│   ├── edge_thermal_power_benchmark.png     # 10-minute thermal & power plot
+│   └── PRESENTATION_DECK_CONTENT.md         # Slide content reference
+│
+└── android/                                 # Full native Android Studio project
+    ├── app/src/main/java/com/samsung/echogesture/
+    │   ├── MainActivity.kt                  # Single-Sign CameraX recognition & HUD
+    │   ├── FeatureExtractor.kt              # Android 320-dim kinematic normalizer
+    │   ├── SignClassifier.kt                # On-device ONNX Runtime inference
+    │   └── TelemetryMonitor.kt              # Kernel jiffies & power tracking
+    └── app/src/main/assets/                 # Bundled INT8 weights & MediaPipe tasks
 ```
 
 ---
 
-## 4. Evaluator Execution Contract
+## 3. Evaluator Execution Contract
 
 Evaluators invoke the `predict` function from `src/main.py`:
 
@@ -177,15 +189,15 @@ print(result)
 
 ---
 
-## 5. Automated Bundle Verification
+## 4. Automated Bundle & Jury Verification
 
-To verify that your submission bundle conforms to all jury requirements:
+To verify full compliance with all Samsung jury invariants in one command:
 
 ```bash
-# Run schema and hierarchy verification
+# 1. Validate submission bundle hierarchy & results schema
 python3 src/validate_submission.py .
 
-# Run the 6-test jury verification suite
+# 2. Run the 6-test automated jury verification suite
 python3 test_submission.py
 ```
 
@@ -203,6 +215,28 @@ Output:
 ============================================================
  [ALL 6 TESTS PASSED] SUBMISSION CODE IS 100% COMPLIANT!
 ============================================================
+```
+
+---
+
+## 5. Environment & Setup
+
+### Requirements:
+- Python 3.10 / 3.11
+- Standard Linux / Android ARM64 environment
+
+### Installation:
+```bash
+python3 -m pip install -r src/requirements.txt
+```
+
+### Reproducible Docker Execution:
+```bash
+# Build the standardized container
+docker build -t echogesture:latest -f src/Dockerfile src/
+
+# Run inference inside container
+docker run --rm echogesture:latest python3 -c "from main import predict; print(predict('sample.mp4'))"
 ```
 
 ---
