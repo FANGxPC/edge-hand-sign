@@ -145,7 +145,7 @@ edge-hand-sign/
 │   ├── extract_landmarks.py                 # MediaPipe + Bystander Spatial Gating
 │   ├── quantize.py                          # INT8 ONNX quantization script
 │   ├── validate_submission.py               # Schema & contract validator
-│   ├── test_submission.py                   # Embedded verification harness
+│   ├── jury_verification.py                 # Embedded jury invariant suite
 │   ├── demo_server.py                       # Zero-dependency web demo console
 │   ├── live_webcam_test.py                  # Live webcam test script
 │   ├── hud_generator.py                     # XR HUD rendering engine

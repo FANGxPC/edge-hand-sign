@@ -40,7 +40,7 @@ def create_submission_zip(output_zip_path: str = "team_submission.zip"):
         "src/extract_landmarks.py",
         "src/quantize.py",
         "src/validate_submission.py",
-        "src/test_submission.py",
+        "src/jury_verification.py",
         "src/hud_generator.py",
         "src/profile_power_thermal.py",
         "src/demo_server.py",

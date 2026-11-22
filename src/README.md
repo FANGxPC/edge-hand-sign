@@ -99,7 +99,9 @@ print(result)
 python3 src/validate_submission.py .
 
 # Run 6-test verification suite
-python3 src/test_submission.py
+python3 test_submission.py
+# or via pytest
+python3 -m pytest
 ```
 
 ---
