@@ -8,17 +8,29 @@ Organized by: **XR Perception Group & PRISM Team, Samsung R&D Institute India, B
 
 ## 🎬 Official 3-Minute Demo Video
 
-> **Direct Video Playback & Walkthrough** (Recorded on edge hardware, 1080p 30 FPS, duration: 2 min 38 sec):
+> **Interactive Walkthrough** (Recorded on edge hardware, 1080p 30 FPS, duration: 2 min 38 sec):
 
 <p align="center">
-  <video src="demo.mp4" controls="controls" width="100%" style="max-height: 520px; border-radius: 10px; border: 1px solid #1e2d5a; box-shadow: 0 4px 20px rgba(0, 180, 216, 0.15);">
-    Your browser does not support the video tag. You can view or download the video directly at <a href="demo.mp4">demo.mp4</a>.
-  </video>
+  <a href="https://github.com/FANGxPC/edge-hand-sign/blob/main/demo.mp4" target="_blank" title="Click to Watch Full HD Demo Video">
+    <img src="results/demo_preview.gif" alt="EchoGesture Live Demo Walkthrough (Click to Play)" width="85%" style="border-radius: 12px; border: 2px solid #00B4D8; box-shadow: 0 8px 30px rgba(0, 180, 216, 0.25);">
+  </a>
 </p>
 
-* 🌐 **[Direct GitHub Video Player Link](https://github.com/FANGxPC/edge-hand-sign/blob/main/demo.mp4)**
-* 📥 **[Download / Stream Raw Video File (demo.mp4)](demo.mp4)**
-* 📝 **[Timestamped Script & Stage Cues](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/DEMO_VIDEO_SCRIPT_3MIN.md)** (6 Acts, 278 words, ~120 WPM cadence)
+<p align="center">
+  <a href="https://github.com/FANGxPC/edge-hand-sign/blob/main/demo.mp4">
+    <img src="https://img.shields.io/badge/▶%20CLICK%20TO%20PLAY%20VIDEO-GitHub%20Player%20(2m%2038s)-00B4D8?style=for-the-badge&logo=youtube&logoColor=white" alt="Play Demo Video">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/FANGxPC/edge-hand-sign/raw/main/demo.mp4">
+    <img src="https://img.shields.io/badge/📥%20DIRECT%20DOWNLOAD%20MP4-32%20MB%20(1080p)-1565C0?style=for-the-badge" alt="Download MP4">
+  </a>
+</p>
+
+* ▶️ **[Open Full Video in GitHub Web Player](https://github.com/FANGxPC/edge-hand-sign/blob/main/demo.mp4)**
+* 📥 **[Download Raw MP4 File (demo.mp4)](demo.mp4)**
+* 📝 **[Timestamped Script & Teleprompter Stage Cues](file:///home/fang/Downloads/Samsung%20XR%20Hackathon/DEMO_VIDEO_SCRIPT_3MIN.md)** (6 Acts, 278 words, ~120 WPM pace)
+
+*(Note: GitHub's markdown security parser disallows raw `<video>` HTML tags in READMEs; clicking the animated preview banner above opens the native GitHub video player directly).*
 
 ---
 
@@ -113,7 +125,7 @@ The repository adheres strictly to the required hackathon hierarchy (Slides 11, 
 ```
 edge-hand-sign/
 ├── demo.mp4                                 # Official 3-minute demo video (1080p, 2m 38s)
-├── README.md                                # Top-level project guide & jury matrix
+├── README.md                                # Root documentation & jury matrix
 ├── VIT_TeamSudo_Submission_ppt.pptx         # Official presentation deck (VIT Vellore / Team-Sudo)
 ├── VIT_TeamSudo_Submission_ppt.pdf          # PDF presentation deck
 ├── CollegeName_TeamName_Submission_ppt.pptx # Template-nomenclature backup
@@ -152,14 +164,12 @@ edge-hand-sign/
 │   ├── predictions.jsonl                    # 100 test clip predictions (one JSON per line)
 │   ├── predictions.json                     # Formatted predictions JSON
 │   ├── edge_thermal_power_benchmark.png     # 10-minute thermal & power plot
+│   ├── demo_preview.gif                     # Animated preview for README
+│   ├── demo_thumbnail.png                   # High-res video poster card
 │   └── PRESENTATION_DECK_CONTENT.md         # Slide content reference
 │
 └── android/                                 # Full native Android Studio project
     ├── app/src/main/java/com/samsung/echogesture/
-    │   ├── MainActivity.kt                  # Single-Sign CameraX recognition & HUD
-    │   ├── FeatureExtractor.kt              # Android 320-dim kinematic normalizer
-    │   ├── SignClassifier.kt                # On-device ONNX Runtime inference
-    │   └── TelemetryMonitor.kt              # Kernel jiffies & power tracking
     └── app/src/main/assets/                 # Bundled INT8 weights & MediaPipe tasks
 ```
 
