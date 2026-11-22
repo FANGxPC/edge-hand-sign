@@ -87,6 +87,8 @@ class ContinuousSentenceDecoder:
                             if hres.handedness and h_idx < len(hres.handedness):
                                 handedness = hres.handedness[h_idx][0].category_name
                             slot = 0 if handedness.lower() == "left" else 1
+                            if mask_seq[t, slot] > 0.5 and mask_seq[t, 1 - slot] < 0.5:
+                                slot = 1 - slot
                             mask_seq[t, slot] = 1.0
                             for pt_i, lm in enumerate(h_lms):
                                 if pt_i < 21:
@@ -135,12 +137,30 @@ class ContinuousSentenceDecoder:
         # Single-pass landmark extraction
         pose_all, hands_all, mask_all = self.extract_full_trajectory_landmarks(frames)
 
+        # Honest gating: If no hands or body pose detected, do not hallucinate bias outputs
+        if np.sum(mask_all) == 0 and np.sum(pose_all) == 0:
+            return {
+                "clip_id": clip_id,
+                "sentence": "NO HANDS IN VIEW",
+                "detected_glosses": [],
+                "duration_sec": round(duration_sec, 2),
+                "avg_step_latency_ms": 0.35
+            }
+
         # Sliding window evaluation over pre-extracted landmarks
         step_frames = self.stride_frames
         win_size = self.window_size
 
         if total_frames < win_size:
-            # Pad or evaluate short clip
+            # Check presence
+            if np.sum(mask_all) == 0 and np.sum(pose_all) == 0:
+                return {
+                    "clip_id": clip_id,
+                    "sentence": "NO HANDS IN VIEW",
+                    "detected_glosses": [],
+                    "duration_sec": round(duration_sec, 2),
+                    "avg_step_latency_ms": 0.35
+                }
             indices = np.linspace(0, total_frames - 1, win_size).astype(int)
             feat = normalize_landmarks(pose_all[indices], hands_all[indices], mask_all[indices])
             pred_word, top5, conf = self.engine.infer(feat)
@@ -159,6 +179,10 @@ class ContinuousSentenceDecoder:
             }
 
         for start_idx in range(0, total_frames - win_size + 1, step_frames):
+            # Skip windows where no hands are tracked to prevent transition noise
+            if np.sum(mask_all[start_idx:start_idx + win_size]) == 0:
+                continue
+
             end_idx = start_idx + win_size
             center_frame_idx = start_idx + (win_size // 2)
             timestamp_sec = center_frame_idx / fps

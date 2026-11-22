@@ -29,7 +29,7 @@ from features import TOTAL_FEATURE_DIM
 
 class SignAugmentation:
     """
-    3D geometric and temporal augmentations on (T, 290) normalized feature vectors.
+    3D geometric and temporal augmentations on (T, 320) normalized feature vectors.
     """
     def __init__(
         self,
@@ -85,8 +85,6 @@ class SignAugmentation:
 
         return augmented
 
-        return augmented
-
 
 class LandmarkSequenceDataset(Dataset):
     def __init__(self, data_list: List[Dict[str, Any]], augment: bool = False):
@@ -99,13 +97,13 @@ class LandmarkSequenceDataset(Dataset):
 
     def __getitem__(self, idx: int) -> Tuple[torch.Tensor, int]:
         item = self.data_list[idx]
-        feat = item["features"] # np.ndarray of shape (T, 290)
+        feat = item["features"] # np.ndarray of shape (T, 320)
         label = item["label"]   # int
 
         if self.augment and self.augmentor:
             feat = self.augmentor(feat)
 
-        # Transpose from (Time=32, Features=290) to (Features=290, Time=32) for Conv1d
+        # Transpose from (Time=32, Features=320) to (Features=320, Time=32) for Conv1d
         tensor = torch.from_numpy(feat.T).float()
         return tensor, label
 

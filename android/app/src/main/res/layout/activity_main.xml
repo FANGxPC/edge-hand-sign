@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- CameraX Live Stream Viewfinder -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Top Telemetry & Status HUD Overlay -->
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#B3090C10"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SAMSUNG GALAXY XR • ECHOGESTURE"
+                android:textColor="@color/accent_cyan"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05" />
+
+            <TextView
+                android:id="@+id/tvPrivacyBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2600FF88"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:text="🔒 100% AIR-GAPPED"
+                android:textColor="@color/accent_green"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Live Edge Telemetry Strip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#26FFFFFF"
+                android:padding="6dp"
+                android:text="--.-°C\nTEMP"
+                android:textColor="@color/accent_green"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPower"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:gravity="center"
+                android:background="#26FFFFFF"
+                android:padding="6dp"
+                android:text="-- mW\nSILICON"
+                android:textColor="@color/accent_green"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLatency"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:gravity="center"
+                android:background="#26FFFFFF"
+                android:padding="6dp"
+                android:text="-- ms\nLATENCY"
+                android:textColor="@color/accent_cyan"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:gravity="center"
+                android:background="#26FFFFFF"
+                android:padding="6dp"
+                android:text="-- MB\nRAM"
+                android:textColor="@color/accent_green"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Center/Bottom: Subtitle HUD Box (Smart Glasses View) -->
+    <LinearLayout
+        android:id="@+id/subtitleCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#D9161B22"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/controlsBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XR GLASSES HUD CAPTION"
+            android:textColor="@color/text_muted"
+            android:textSize="10sp"
+            android:letterSpacing="0.1" />
+
+        <TextView
+            android:id="@+id/tvPrediction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="READY TO SIGN"
+            android:textColor="@color/accent_green"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvConfidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stand in camera view • INT8 Model 0.787 MB"
+            android:textColor="@color/text_muted"
+            android:textSize="11sp"
+            android:gravity="center" />
+
+        <!-- Two-Way Conversational Relay Subtitle (Hearing Companion Speech -> XR HUD) -->
+        <TextView
+            android:id="@+id/tvCompanionSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="#2600E5FF"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:text="COMPANION: &quot;Hello, nice to meet you&quot;"
+            android:textColor="@color/accent_cyan"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Bottom Controls -->
+    <LinearLayout
+        android:id="@+id/controlsBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#E6090C10"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnRecognizeSign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⚡ RECOGNIZE SIGN (1.5s)"
+            android:backgroundTint="@color/accent_cyan"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCompanionReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="🎙️ COMPANION REPLY"
+            android:backgroundTint="#FF3366"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btnFlipCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="🔄"
+            android:backgroundTint="#33FFFFFF"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

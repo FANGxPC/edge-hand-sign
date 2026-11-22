@@ -5,4 +5,14 @@ __pycache__/
 *.mp4
 temp_perturbed.mp4
 .DS_Store
+.gradle_cache/
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/local_gradle/
+*.part
+*.lck
 
+TeamSudo.zip

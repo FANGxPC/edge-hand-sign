@@ -134,4 +134,4 @@ def normalize_landmarks(
         axis=-1
     ).astype(np.float32)
 
-    return feature_matrix
+    return np.nan_to_num(feature_matrix, nan=0.0, posinf=1.0, neginf=-1.0)

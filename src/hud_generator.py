@@ -126,7 +126,7 @@ class EchoGestureHUDGenerator:
         )
 
         # Edge Telemetry Pill (Right aligned)
-        telemetry_text = f"INT8 EDGE  |  TCN: 0.32ms  |  FPS: {fps:.1f}  |  100% ON-DEVICE"
+        telemetry_text = f"INT8 EDGE  |  TCN: {latency_ms:.2f}ms  |  FPS: {fps:.1f}  |  100% ON-DEVICE"
         text_size = cv2.getTextSize(telemetry_text, cv2.FONT_HERSHEY_SIMPLEX, 0.55, 1)[0]
         tx = max(20, w - text_size[0] - 25)
         cv2.putText(

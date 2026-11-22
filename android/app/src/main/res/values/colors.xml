@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark">#090C10</color>
+    <color name="card_dark">#D9161B22</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_green">#00FF88</color>
+    <color name="accent_orange">#FF9900</color>
+    <color name="accent_red">#FF3366</color>
+    <color name="text_muted">#8B949E</color>
+    <color name="hud_glow">#3300FF88</color>
+</resources>
+

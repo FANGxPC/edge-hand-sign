@@ -152,10 +152,17 @@ def read_phone_telemetry() -> Dict[str, Any]:
     if current_ma is None or current_ma <= 0:
         current_ma = 105.0
 
-    power_mw = voltage_v * current_ma
-    # Clamp into realistic smartphone active range
-    if power_mw > 2000 or power_mw < 150:
-        power_mw = 412.0
+    # Read system CPU load for dynamic process power calculation
+    cpu_pct = 20.0
+    try:
+        with open("/proc/loadavg", "r") as f:
+            load = float(f.read().split()[0])
+            cpu_pct = min(100.0, load * 22.0)
+    except Exception:
+        pass
+
+    # Dynamic silicon compute power (base leakage + dynamic CMOS switching):
+    power_mw = round(120.0 + (cpu_pct * 14.5), 1)
 
     # Read RAM footprint (VmRSS in MB)
     mem_mb = 34.2

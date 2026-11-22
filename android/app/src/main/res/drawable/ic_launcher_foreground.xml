@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stylized hand gesture logo in Neon Green and Cyan -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,28c-3.3,0 -6,2.7 -6,6v24h-4V42c0-3.3 -2.7-6 -6-6s-6,2.7 -6,6v22c0,11 9,20 20,20s20,-9 20,-20V38c0,-3.3 -2.7,-6 -6,-6s-6,2.7 -6,6v16h-4V34c0,-3.3 -2.7,-6 -6,-6z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,20c18.8,0 34,15.2 34,34s-15.2,34 -34,34S20,72.8 20,54 35.2,20 54,20m0-4C32.9,16 16,32.9 16,54s16.9,38 38,38 38,-16.9 38,-38S75.1,16 54,16z" />
+</vector>
+

@@ -45,7 +45,6 @@ def create_submission_zip(output_zip_path: str = "team_submission.zip"):
         "src/profile_power_thermal.py",
         "src/demo_server.py",
         "src/live_webcam_test.py",
-        "src/continuous_sentence_decoder.py",
         "src/weights/model_int8.onnx",
         "src/weights/model.onnx",
         "src/weights/hand_landmarker.task",

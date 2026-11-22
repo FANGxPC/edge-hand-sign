@@ -158,6 +158,10 @@ def predict(video_path: str) -> Dict[str, Any]:
         t_infer_end = time.perf_counter()
         latency_ms = (t_infer_end - t_infer_start) * 1000.0
 
+        # When no hands are detected in the clip, report honest low confidence
+        if not raw_landmarks.get("valid", True) or np.sum(raw_landmarks["hand_mask"]) == 0:
+            confidence = 0.01
+
     except Exception as exc:
         # Non-negotiable Rule 6: predict() must NEVER crash on any clip
         # Ensure fallback prediction belongs to supported vocabulary

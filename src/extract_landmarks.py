@@ -186,6 +186,10 @@ class VideoLandmarkExtractor:
                                 handedness = hand_res.handedness[h_idx][0].category_name
 
                             slot = 0 if handedness.lower() == "left" else 1
+                            # Preserve both hands if MediaPipe assigns identical labels to both hands
+                            if mask_seq[t, slot] > 0.5 and mask_seq[t, 1 - slot] < 0.5:
+                                slot = 1 - slot
+
                             mask_seq[t, slot] = 1.0
 
                             for pt_i, lm in enumerate(h_lms):

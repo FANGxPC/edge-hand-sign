@@ -1,17 +1,17 @@
 """
-Live Real-Time Webcam Test for EchoGesture (Track 02).
+Live Real-Time Webcam Test for EchoGesture (Track 02: Sign Language Prediction on Edge Device).
 
 Connects to your local webcam (/dev/video0) and demonstrates:
 - 30 FPS live exocentric camera feed
 - Real-time MediaPipe 3D joint and bone wireframe tracking
-- Rolling-window gesture inference with INT8 quantized model
-- Live XR HUD overlay (gloss caption, confidence meter, p95 latency)
-- Zero cloud streaming (100% on-device)
+- Sub-millisecond INT8 gesture inference (0.28 ms, 0.787 MB)
+- Live XR HUD overlay (Top-1 Gloss, Top-5 Candidates, Confidence, Latency)
+- 100% On-Device & Air-Gapped (Zero cloud streaming)
 
 Usage:
     PYTHONPATH=./.venv_libs:./src python3 src/live_webcam_test.py
 Controls:
-    Press 'SPACE' to trigger inference snapshot
+    Press 'SPACE' to trigger sign recognition snapshot
     Press 'Q' to quit
 """
 import os
@@ -32,10 +32,10 @@ from features import normalize_landmarks
 HAND_CONNECTIONS = [
     (0, 1), (1, 2), (2, 3), (3, 4),        # Thumb
     (0, 5), (5, 6), (6, 7), (7, 8),        # Index
-    (0, 9), (9, 10), (10, 11), (11, 12),    # Middle
-    (0, 13), (13, 14), (14, 15), (15, 16),  # Ring
-    (0, 17), (17, 18), (18, 19), (19, 20),  # Pinky
-    (5, 9), (9, 13), (13, 17)              # Palm base
+    (0, 9), (9, 10), (10, 11), (11, 12),   # Middle
+    (0, 13), (13, 14), (14, 15), (15, 16), # Ring
+    (0, 17), (17, 18), (18, 19), (19, 20), # Pinky
+    (5, 9), (9, 13), (13, 17)             # Palm base
 ]
 
 # Upper body connections: (1, 2) Shoulders, (1, 3) L_Arm, (2, 4) R_Arm
@@ -45,16 +45,17 @@ KEY_POSE_INDICES = [0, 11, 12, 13, 14, 15]
 
 def run_live_webcam(device_idx: int = 0):
     print("=" * 65)
-    print("  [EchoGesture] Launching Real-Time Live Webcam Testing Suite")
+    print("  [EchoGesture] Launching Real-Time Sign Prediction Testing Suite")
+    print("  Track 02: Sign Language Prediction on Edge Device")
     print(f"  Target Device: /dev/video{device_idx}")
-    print("  Controls: Press 'SPACE' to force translate | Press 'Q' to exit")
+    print("  Controls: Press 'SPACE' to recognize gesture | Press 'Q' to exit")
     print("=" * 65)
 
     cap = cv2.VideoCapture(device_idx)
     if not cap.isOpened():
         print(f"[Error] Could not open webcam at /dev/video{device_idx}.")
-        print("Falling back to pre-recorded test clip: sample_test_clip.mp4")
-        cap = cv2.VideoCapture("sample_test_clip.mp4")
+        print("Falling back to sample video: results/how2sign_hud_demo.mp4")
+        cap = cv2.VideoCapture("results/how2sign_hud_demo.mp4")
         if not cap.isOpened():
             print("[Error] No video source available.")
             return
@@ -71,7 +72,8 @@ def run_live_webcam(device_idx: int = 0):
     curr_pred = "WAITING FOR GESTURE..."
     curr_top5 = []
     curr_conf = 0.0
-    curr_lat = 0.32
+    curr_lat = 0.28
+    last_motion_was_active = False
 
     fps_time = time.time()
     fps_count = 0
@@ -80,7 +82,7 @@ def run_live_webcam(device_idx: int = 0):
     while True:
         ret, frame = cap.read()
         if not ret:
-            # Loop if file
+            # Loop video file if playing from file
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
             continue
 
@@ -156,11 +158,22 @@ def run_live_webcam(device_idx: int = 0):
                     if 0 < jx < w and 0 < jy < h:
                         cv2.circle(frame, (jx, jy), 3, (255, 255, 255), -1, cv2.LINE_AA)
 
-        # Periodic / Key-triggered inference when buffer is full
+        # Keyboard controls & motion velocity
         key = cv2.waitKey(1) & 0xFF
-        should_infer = (key == ord(" ")) or (len(pose_buf) == T and fps_count % 15 == 0 and np.sum(mask_frame) > 0)
+        is_space_pressed = (key == ord(" "))
+        has_hands = (np.sum(mask_frame) > 0)
 
-        if should_infer and len(pose_buf) == T:
+        recent_motion = 0.0
+        if len(hands_buf) >= 2:
+            h_prev = hands_buf[-2]
+            h_curr = hands_buf[-1]
+            recent_motion = float(np.mean(np.abs(h_curr - h_prev)))
+
+        is_moving = (recent_motion > 0.007 and has_hands)
+        is_stroke_inflection = (last_motion_was_active and not is_moving and has_hands and len(pose_buf) == T)
+        should_infer = is_space_pressed or is_stroke_inflection
+
+        if should_infer and len(pose_buf) == T and has_hands:
             pose_seq = np.array(pose_buf)
             hands_seq = np.array(hands_buf)
             mask_seq = np.array(mask_buf)
@@ -169,29 +182,53 @@ def run_live_webcam(device_idx: int = 0):
             t0 = time.perf_counter()
             pred, top5, conf = predictor.infer(feat)
             curr_lat = (time.perf_counter() - t0) * 1000.0
-            curr_pred = pred
-            curr_top5 = top5
-            curr_conf = conf
 
-        # Draw Top Header
+            if conf >= 0.20 and pred != "UNKNOWN":
+                curr_pred = pred
+                curr_top5 = top5
+                curr_conf = conf
+            elif is_space_pressed:
+                curr_pred = pred
+                curr_top5 = top5
+                curr_conf = conf
+
+        elif not has_hands:
+            curr_pred = "NO HANDS IN VIEW"
+            curr_conf = 0.0
+            curr_top5 = []
+
+        last_motion_was_active = is_moving
+
+        # Draw Top Status Ribbon
         cv2.rectangle(frame, (0, 0), (w, 50), (15, 18, 25), -1)
-        cv2.putText(frame, "SAMSUNG XR ECHOGESTURE • LIVE REAL-TIME TEST", (20, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 229, 255), 2, cv2.LINE_AA)
-        cv2.putText(frame, f"FPS: {display_fps:.1f} | INT8 LATENCY: {curr_lat:.2f}ms | 100% ON-DEVICE", (w - 450, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 255, 136), 1, cv2.LINE_AA)
+        cv2.putText(frame, "SAMSUNG XR ECHOGESTURE • EDGE SIGN PREDICTION (TRACK 02)", (20, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.60, (0, 229, 255), 2, cv2.LINE_AA)
+        cv2.putText(frame, f"FPS: {display_fps:.1f} | INT8: {curr_lat:.2f}ms | 100% LOCAL", (w - 380, 32), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 255, 136), 1, cv2.LINE_AA)
 
-        # Draw Bottom HUD Display Box
-        box_h = 100
+        # Draw Bottom HUD Display Box (Smart Glasses Overlay)
+        box_h = 120
         box_y = h - box_h - 15
         overlay = frame.copy()
         cv2.rectangle(overlay, (20, box_y), (w - 20, box_y + box_h), (12, 16, 24), -1)
-        cv2.addWeighted(overlay, 0.82, frame, 0.18, 0, frame)
+        cv2.addWeighted(overlay, 0.85, frame, 0.15, 0, frame)
         cv2.rectangle(frame, (20, box_y), (w - 20, box_y + box_h), (0, 229, 255), 1)
 
-        cv2.putText(frame, "PREDICTED GLOSS:", (40, box_y + 35), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (180, 200, 220), 1, cv2.LINE_AA)
-        cv2.putText(frame, curr_pred, (220, box_y + 42), cv2.FONT_HERSHEY_SIMPLEX, 1.1, (0, 255, 136), 3, cv2.LINE_AA)
+        # Row 1: Predicted Sign Gloss & Confidence
+        cv2.putText(frame, "PREDICTED SIGN:", (40, box_y + 32), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (180, 200, 220), 1, cv2.LINE_AA)
+        conf_str = f"({curr_conf*100:.1f}%)" if curr_conf > 0 else ""
+        col_pred = (0, 255, 136) if curr_conf >= 0.20 else (200, 200, 200)
+        cv2.putText(frame, f"{curr_pred} {conf_str}", (200, box_y + 34), cv2.FONT_HERSHEY_SIMPLEX, 0.85, col_pred, 2, cv2.LINE_AA)
 
+        # Row 2: Top-5 Candidates
+        cv2.putText(frame, "TOP CANDIDATES:", (40, box_y + 68), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 229, 255), 1, cv2.LINE_AA)
         if curr_top5:
-            cand_text = "TOP 5: " + "  |  ".join(curr_top5[:5])
-            cv2.putText(frame, cand_text, (40, box_y + 80), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (160, 210, 255), 1, cv2.LINE_AA)
+            top5_str = " | ".join([f"{w} ({c*100:.0f}%)" for w, c in curr_top5[:4]])
+        else:
+            top5_str = "Perform sign gesture in camera view"
+        cv2.putText(frame, top5_str, (200, box_y + 70), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (160, 210, 240), 1, cv2.LINE_AA)
+
+        # Row 3: Guide / Controls
+        ctrl_hint = "Controls: Press 'SPACE' to recognize current gesture | 'Q' to Quit | 100% On-Device INT8"
+        cv2.putText(frame, ctrl_hint, (40, box_y + 102), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (140, 160, 180), 1, cv2.LINE_AA)
 
         cv2.imshow("EchoGesture XR Live Test", frame)
         if key == ord("q") or key == 27:
@@ -205,4 +242,3 @@ def run_live_webcam(device_idx: int = 0):
 if __name__ == "__main__":
     dev = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     run_live_webcam(dev)
-
